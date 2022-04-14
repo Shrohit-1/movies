@@ -36,3 +36,107 @@
     transform: rotate(360deg);
   }
 }
+
+.center-text{
+  margin-left: 40%;
+  margin-bottom: 3rem;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 2.5rem;
+}
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0%;
+}
+.banner-card{
+  width: 100%;
+
+  margin-bottom: 3vh;
+  position: relative;
+  height: 70vh;
+  color: white;
+  overflow: hidden;
+}
+
+.banner-img{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+}
+
+.banner-title{
+  position: absolute;
+  top: 59vh;
+  left: 2vw;
+}
+
+.banner-text{
+  position: absolute;
+  top: 70vh;
+  width: 80vw;
+  left: 2vw;
+}
+
+.movies-list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.movies-card{
+  height: 30vh;
+  width: 22vw;
+  position: relative;
+  color: white;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+}
+.movies-img{
+  height: 100%;
+  width: 100%;
+}
+
+.movies-title{
+  color: white;
+  position: absolute;
+  bottom: 0.25vh;
+  left: 0.5vw;
+  z-index: 1;
+}
+.button-wrapper{
+  position: absolute;
+  top: 1vh;
+  left: 0.5vw;
+  font-size: smaller;
+}
+
+
+
+
+
+@media screen and (max-width:400px) {
+  .banner-card{
+    height: 30vh;
+  }
+  .banner-img{
+    height: 30vh;
+  }
+  .banner-title{
+    top: 15vh;
+  }
+  .banner-text{
+    top: 18vh;
+    font-size: 0.5rem;
+  }
+  .movies-card{
+    height: 20vh;
+    width: 83vw;
+    position: relative;
+    color: white;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+  }
+
+}
